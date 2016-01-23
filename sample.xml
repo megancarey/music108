@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<!DOCTYPE feature_vector_file [
+   <!ELEMENT feature_vector_file (comments, data_set+)>
+   <!ELEMENT comments (#PCDATA)>
+   <!ELEMENT data_set (data_set_id, section*, feature*)>
+   <!ELEMENT data_set_id (#PCDATA)>
+   <!ELEMENT section (feature+)>
+   <!ATTLIST section start CDATA ""
+                     stop CDATA "">
+   <!ELEMENT feature (name, v+)>
+   <!ELEMENT name (#PCDATA)>
+   <!ELEMENT v (#PCDATA)>
+]>
+
+<feature_vector_file>
+
+   <comments></comments>
+
+	<data_set>
+		<data_set_id>/Users/megancarey/Desktop/music_samples/MIDI_files/Confident - Demi Lovato.mid</data_set_id>
+		<feature>
+			<name>Average Melodic Interval</name>
+			<v>3.175E1</v>
+		</feature>
+		<feature>
+			<name>Average Note To Note Dynamics Change</name>
+			<v>2.267E1</v>
+		</feature>
+		<feature>
+			<name>Direction of Motion</name>
+			<v>1.825E-1</v>
+		</feature>
+		<feature>
+			<name>Distance Between Most Common Melodic Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Duration of Melodic Arcs</name>
+			<v>3.244E0</v>
+		</feature>
+		<feature>
+			<name>Size of Melodic Arcs</name>
+			<v>1.032E2</v>
+		</feature>
+		<feature>
+			<name>Stepwise Motion</name>
+			<v>6.248E-2</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/megancarey/Desktop/music_samples/MIDI_files/Fleet in Time.mid</data_set_id>
+		<feature>
+			<name>Average Melodic Interval</name>
+			<v>1.865E1</v>
+		</feature>
+		<feature>
+			<name>Average Note To Note Dynamics Change</name>
+			<v>2.048E1</v>
+		</feature>
+		<feature>
+			<name>Direction of Motion</name>
+			<v>3.558E-1</v>
+		</feature>
+		<feature>
+			<name>Distance Between Most Common Melodic Intervals</name>
+			<v>1.1E1</v>
+		</feature>
+		<feature>
+			<name>Duration of Melodic Arcs</name>
+			<v>1.818E0</v>
+		</feature>
+		<feature>
+			<name>Size of Melodic Arcs</name>
+			<v>3.458E1</v>
+		</feature>
+		<feature>
+			<name>Stepwise Motion</name>
+			<v>9.191E-2</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/megancarey/Desktop/music_samples/MIDI_files/Hotline Bling - Drake.mid</data_set_id>
+		<feature>
+			<name>Average Melodic Interval</name>
+			<v>2.334E1</v>
+		</feature>
+		<feature>
+			<name>Average Note To Note Dynamics Change</name>
+			<v>2.018E1</v>
+		</feature>
+		<feature>
+			<name>Direction of Motion</name>
+			<v>2.866E-1</v>
+		</feature>
+		<feature>
+			<name>Distance Between Most Common Melodic Intervals</name>
+			<v>1.8E1</v>
+		</feature>
+		<feature>
+			<name>Duration of Melodic Arcs</name>
+			<v>2.229E0</v>
+		</feature>
+		<feature>
+			<name>Size of Melodic Arcs</name>
+			<v>5.271E1</v>
+		</feature>
+		<feature>
+			<name>Stepwise Motion</name>
+			<v>1.338E-1</v>
+		</feature>
+	</data_set>
+
+</feature_vector_file>
